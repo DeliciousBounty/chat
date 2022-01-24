@@ -1,0 +1,65 @@
+
+.banner {
+    background-color: pink;
+    text-align: center;
+    padding: 10px ;
+}
+.navigation{
+
+   text-align: center;
+    background-image: linear-gradient( 
+45deg, #472dd7, #8d1919d9);
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;}
+.navigation a{
+    margin: 5px 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.selected {
+   
+    background-color: #c23b44;
+    border-radius: 8px;
+    width: 120px;
+
+}
+#logoBar{
+    height: 90px;
+}
+.footer{
+     background-image: linear-gradient(
+45deg, #472dd7, #8d1919d9);
+    padding: 10px 20px;
+    color: white;
+}
+body{
+        background-image: url('../images/banner-1.png');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: #ffffff8c;
+    border-radius: 15px;
+    border: solid 3px #445;
+}
+.form-input{
+    width: 100%;
+    padding: 5px;
+}
+.submit-button{
+    background-color: #96ad6880;
+    padding: 5px;
+}
+#banner-div{
+        display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+}
